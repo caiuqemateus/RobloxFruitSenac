@@ -174,7 +174,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: vem
+    m_ConditionEvent: bater
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6887594590434924144}
@@ -185,8 +185,8 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
   m_ExitTime: 0.75
-  m_HasExitTime: 0
-  m_HasFixedDuration: 1
+  m_HasExitTime: 1
+  m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
@@ -226,13 +226,13 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -537536949681473654}
-    m_Position: {x: 490, y: 10, z: 0}
+    m_Position: {x: 500, y: -20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4253652097182104663}
     m_Position: {x: 400, y: 130, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6887594590434924144}
-    m_Position: {x: 690, y: 10, z: 0}
+    m_Position: {x: 490, y: 40, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 2884438959885445120}
